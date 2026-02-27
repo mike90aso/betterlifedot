@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DOT Physical — Dr. Candace Thomas | Better Life DOT | North Chesterfield, VA | $95</title>
-  <meta name="description" content="Same-day DOT physical with Dr. Candace Thomas in North Chesterfield. $95 exam and card. Driver friendly, in and out in 30 minutes. Saturday appointments. (804) 807-3527." />
+  <title>DOT Physical | Better Life DOT | North Chesterfield, VA | $95</title>
+  <meta name="description" content="Same-day DOT physical in North Chesterfield. $95 exam and card. Driver friendly, in and out in 30 minutes. Saturday appointments. (804) 807-3527." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet" />
@@ -71,6 +71,10 @@
       margin: 0 0 1.5rem;
       color: var(--gray-light);
     }
+    .hero .tagline .driver-friendly {
+      font-weight: 700;
+      font-size: 1.3rem;
+    }
     .cta-row {
       display: flex;
       flex-wrap: wrap;
@@ -119,6 +123,10 @@
       font-weight: 600;
       border: 2px solid var(--accent);
       color: var(--white);
+    }
+    .badge.badge-driver-friendly {
+      font-weight: 700;
+      font-size: 1rem;
     }
 
     section {
@@ -191,42 +199,34 @@
 </head>
 <body>
   <header class="site-header">
-    <h1>Dr. Candace Thomas</h1>
-    <p class="sub">Better Life DOT — North Chesterfield, VA</p>
+    <h1>Better Life DOT</h1>
+    <p class="sub">North Chesterfield, VA</p>
   </header>
 
   <main>
     <section class="hero">
       <p class="price">$95 <span>Exam & Card</span></p>
-      <p class="tagline">Same-day DOT physical. Driver friendly. In and out in 30 minutes or less.</p>
+      <p class="tagline">Same-day DOT physical. <span class="driver-friendly">Driver friendly.</span> In and out in 30 minutes or less.</p>
       <div class="cta-row">
         <a href="tel:8048073527" class="btn btn-primary">📞 Call (804) 807-3527</a>
-        <a href="https://www.google.com/maps/dir//235+Wadsworth+Drive+North+Chesterfield+VA" target="_blank" rel="noopener" class="btn btn-secondary">Get Directions</a>
       </div>
       <div class="badges">
         <span class="badge">Saturday appointments</span>
         <span class="badge">Done in 30 mins or less</span>
         <span class="badge">Same-day DOT physical</span>
-        <span class="badge">Driver friendly</span>
+        <span class="badge badge-driver-friendly">Driver friendly</span>
       </div>
     </section>
 
     <section>
-      <h2>Location & Hours</h2>
+      <h2>Location</h2>
       <div class="card">
         <div class="address-block">
           <strong>235 Wadsworth Drive</strong><br />
-          North Chesterfield, VA<br />
-          <a href="https://www.google.com/maps/dir//235+Wadsworth+Drive+North+Chesterfield+VA" target="_blank" rel="noopener">Get directions →</a>
+          North Chesterfield, VA
         </div>
         <div class="phone-block">
           <a href="tel:8048073527">(804) 807-3527</a>
-        </div>
-      </div>
-      <div class="card">
-        <h2 style="margin-top:0;">Hours</h2>
-        <div class="hours-grid">
-          <div class="hours-row"><span class="day">Saturday</span><span class="time">By appointment</span></div>
         </div>
       </div>
     </section>
@@ -234,7 +234,7 @@
     <section>
       <h2>Why choose us</h2>
       <div class="card">
-        <p><strong>Driver friendly.</strong> We know your time matters. Get your DOT physical without the runaround.</p>
+        <p><strong class="driver-friendly-text">Driver friendly.</strong> We know your time matters. Get your DOT physical without the runaround.</p>
       </div>
       <div class="card">
         <p><strong>In and out in 30 minutes or less.</strong> Fast, efficient exams so you can get back on the road.</p>
